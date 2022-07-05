@@ -1,0 +1,23 @@
+{
+  "name": "electron-practice",
+  "version": "1.0.0",
+  "description": "Just a repository for practice Electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ait-studio/electron-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ait-studio/electron-practice/issues"
+  },
+  "homepage": "https://github.com/ait-studio/electron-practice#readme",
+  "devDependencies": {
+    "electron": "^19.0.7"
+  }
+}
