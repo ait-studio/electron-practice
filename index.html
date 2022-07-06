@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
 
     <!-- scripts -->
     <script src="./handler.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="mainWrapper">
-        <button name="btn" id="btn">click me</button>
+      <button name="btn" id="btn" class="btn">click me</button>
+      <button name="sign" id="sign" class="btn">sign in</button>
     </div>
-    <div class="modal">hi, i'm a popup</div>
-</body>
+    <div class="modal">
+      <div class="modalHandler">
+        <div
+          class="macRed round"
+          style="width: 10px; height: 10px"
+          id="closeButton"
+        ></div>
+        <div
+          class="macYellow round"
+          style="width: 10px; height: 10px"
+          id="hideButton"
+        ></div>
+        <div
+          class="macGreen round"
+          style="width: 10px; height: 10px"
+          id="maxButton"
+        ></div>
+      </div>
+      <div class="modalContent">
+        A simple popup element, but have been get more prettier.
+      </div>
+    </div>
+  </body>
 </html>
