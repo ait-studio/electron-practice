@@ -1,0 +1,10 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "hajun (DENVER)",
+  "license": "MIT"
+}
