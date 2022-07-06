@@ -28,3 +28,12 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
+
+// If development environment
+const env = process.env.NODE_ENV || "development";
+if (env === "development") {
+  require("electron-reload")(__dirname, {
+    electron: path.join(__dirname, "node_modules", ".bin", "electron"),
+    hardResetMethod: "exit",
+  });
+}
